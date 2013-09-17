@@ -176,6 +176,7 @@ public class WebUntisConnector {
 
 	}
 
+	@SuppressWarnings("deprecation")
 	public TimeTable getTimeTable(Type type, int id, Date start, Date end)
 			throws JSONException, IOException {
 
@@ -187,6 +188,10 @@ public class WebUntisConnector {
 		for (long d = startDateMilSec; d <= endDateMilSec; d = d + 86400000) {
 			
 			Date curr = new Date(d);
+			
+			curr.setHours(0);
+			curr.setMinutes(0);
+			curr.setSeconds(0);
 			
 			JSONObject params = new JSONObject();
 			params.put("id", id);

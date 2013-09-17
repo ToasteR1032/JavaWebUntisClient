@@ -21,14 +21,8 @@ public class Test {
 		WebUntisConnector conn;
 
 		try {
-			long startt = System.currentTimeMillis();
-
 			conn = new WebUntisConnector("https://stpl.tgm.ac.at/WebUntis/",
 					"tgm", "rhollander", JOptionPane.showInputDialog(null, "Passwort fuer rhollander"));
-
-			long stopt = System.currentTimeMillis();
-
-			System.out.println("Time to login: " + (stopt - startt));
 
 			Date start = new Date();
 			Date end = new Date();
