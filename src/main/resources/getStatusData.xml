@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+   <lstypes>
+   <!-- Unterricht -->
+      <ls>
+         <foreColor>000000</foreColor>
+         <backColor>f49f25</backColor>
+      </ls>
+   </lstypes>
+   <lstypes>
+   <!-- Sprechstunde -->
+      <oh>
+         <foreColor>000000</foreColor>
+         <backColor>f49f25</backColor>
+      </oh>
+   </lstypes>
+   <lstypes>
+   <!-- Bereitschaft -->
+      <sb>
+         <foreColor>000000</foreColor>
+         <backColor>f49f25</backColor>
+      </sb>
+   </lstypes>
+   <lstypes>
+   <!-- Pausenaufsicht -->
+      <bs>
+         <foreColor>000000</foreColor>
+         <backColor>ea6ea3</backColor>
+      </bs>
+   </lstypes>
+   <lstypes>
+   <!-- Prüfung -->
+      <ex>
+         <foreColor>000000</foreColor>
+         <backColor>ffed00</backColor>
+      </ex>
+   </lstypes>
+   <codes>
+   <!-- Entfall -->
+      <cancelled>
+         <foreColor>000000</foreColor>
+         <backColor>b1b3b4</backColor>
+      </cancelled>
+   </codes>
+   <codes>
+   <!-- Vertretung -->
+      <irregular>
+         <foreColor>000000</foreColor>
+         <backColor>65b568</backColor>
+      </irregular>
+   </codes>
+</result>

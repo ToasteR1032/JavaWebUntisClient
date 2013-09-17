@@ -1,0 +1,42 @@
+authenticate
+	params: schoon, username, password
+	gets: sessionID
+	
+getDepartments
+	params: null
+	gets: departments
+	
+getHolidays
+	params: null
+	gets: holidays
+	
+getKlassen
+	params: [schoolyearId]
+	gets: classes in schoolyear
+	
+getTimetable
+	params: id, type, startDate, endDate
+	gets: gets timetable for class(id) and type(type) between startDate	and endDate
+
+getRooms
+	params: null
+	gets: rooms
+	
+getSchoolyears
+	params: null
+	gets: schoolyears
+	
+getSubjects
+	params: null
+	gets: subjects
+	
+getTeachers
+	params: null
+	gets: teachers
+	
+getTimegridUnits
+	params: null
+	gets: ?
+getStatusData
+	params: null
+	gets: gets information about colors and stuff
